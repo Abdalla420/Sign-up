@@ -1,6 +1,26 @@
-html, body {
-height: 100%;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+#left{
+    width: 38%;
+    background-color: grey;
+}
+#right{
+    background-color: #f7f7f7;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#forms{
+    height: 30%;
+    background-color: aqua;
 }
