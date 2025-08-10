@@ -93,6 +93,8 @@ img{
     display: flex;
     flex-direction: column;
     position: absolute;
+    max-width: 400px;
+    height: auto;
     top: 30px;
     left: var(--left-space);
     justify-content: space-between;
@@ -102,6 +104,10 @@ img{
     background-color: #708A58;
     color: white;
     border: none;
+    max-width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 #have{
     font-size: large;
