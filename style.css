@@ -101,16 +101,24 @@ img{
     flex-wrap: nowrap;
 }
 [type="submit"]{
-    background-color: #708A58;
+    background-color: #687c54;
     color: white;
     border: none;
     max-width: 15rem;
     height: 3rem;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-bottom: 15px;
+    font-size: medium;
+    font-weight: bold;
+}
+[type="submit"]:hover{
+    box-shadow: 0px 7px 27px 0px darkgray;
 }
 #have{
     font-size: large;
     font-weight: 600;
 }
-
+#login{
+    color: rgb(46, 117, 46);
+    text-decoration: none;
+}
